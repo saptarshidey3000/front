@@ -1,0 +1,52 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap');
+
+/* Add your custom styles here */
+body {
+  @apply bg-white-color font-body;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-title font-semibold text-dark-color;
+}
+
+h1 {
+  @apply text-h1 font-bold;
+}
+
+h2 {
+  @apply text-h2 font-bold;
+}
+
+h3 {
+  @apply text-h3;
+}
+
+h4 {
+  @apply text-h4;
+}
+
+h5 {
+  @apply text-h5;
+}
+
+h6 {
+  @apply text-h6 text-primary-color;
+}
+
+p {
+  @apply text-p-color text-p font-normal;
+}
+
+a {
+  @apply inline-block text-primary-color no-underline transition-all duration-300;
+}
+
+a:hover {
+  @apply text-link-hover-color;
+}
+
+/* Add more custom styles as needed */
