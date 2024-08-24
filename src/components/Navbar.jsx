@@ -4,7 +4,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-transparent border-b border-secondary-color bg-opacity-35 fixed w-full z-10">
+    <nav className="bg-blue-900 border-b border-secondary-color  fixed w-full z-10">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <a href="#" className="text-h3 font-bold text-white">
